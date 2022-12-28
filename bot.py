@@ -42,4 +42,4 @@ async def on_ready():
     print("Бот был успешно включён!")
     await Bot.change_presence(status=discord.Status.idle, activity=discord.Game(""))
 
-Bot.run('MTA1NzU5MTY5MjAzMjc1MzY2NA.GtejGH.zeU4AST3nNb9PtrNwiI_vQ_KPmJ_mFaR_HN0AQ')
+Bot.run(process.env.BOT_TOKEN)
